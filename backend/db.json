@@ -1,0 +1,30 @@
+{
+  "products": [
+    {
+      "id": 1,
+      "name": "Caneta Preta",
+      "price": 5.20
+    },
+    {
+      "id": 2,
+      "name": "Caneta Branca",
+      "price": 5.20
+    },
+    {
+      "id": 3,
+      "name": "Caneta Marrom",
+      "price": 5.20
+    },
+    {
+      "id": 4,
+      "name": "Monitor LG 40",
+      "price": 500.32
+    },
+    {
+      "id": 5,
+      "name": "Mouse Razer Deathadder",
+      "price": 350.32
+    }
+  ]
+
+}
