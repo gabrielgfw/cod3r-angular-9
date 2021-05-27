@@ -1,13 +1,13 @@
-<div *ngIf="true" class="loading-container">
+<div *ngIf="isLoading" class="loading-container">
   <mat-spinner class="loading-state"></mat-spinner>
 </div>
 
 <p>product-create works!</p>
 
-<button mat-raised-button color="primary" (click)="createProduct()">
+<button [disabled]="isLoading" mat-raised-button color="primary" (click)="createProduct()">
   Salvar
 </button>
 
-<button mat-raised-button color="warn" (click)="cancel()">
+<button [disabled]="isLoading" mat-raised-button color="warn" (click)="cancel()">
   Cancelar
 </button>
