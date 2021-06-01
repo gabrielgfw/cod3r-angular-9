@@ -1,0 +1,15 @@
+h1 {
+  font-weight: 500;
+}
+
+.details-container {
+  padding-bottom: 20px;
+}
+
+.button-container {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  justify-content: flex-end;
+  align-items: center;
+}

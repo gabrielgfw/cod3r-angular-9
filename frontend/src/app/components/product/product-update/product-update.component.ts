@@ -30,7 +30,6 @@ export class ProductUpdateComponent implements OnInit {
       this.productService.showMessage('Produto atualizado com sucesso!');
       this.router.navigate(['/products']);
     });
-
   }
 
   cancel(): void {

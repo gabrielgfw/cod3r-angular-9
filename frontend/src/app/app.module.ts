@@ -26,10 +26,13 @@ import { MatTableModule } from '@angular/material/table';
 import { MatPaginatorModule } from '@angular/material/paginator';
 import { MatSortModule } from '@angular/material/sort';
 import { MatTooltipModule } from '@angular/material/tooltip';
+import { MatDialogModule } from '@angular/material/dialog';
 
 import localePt from '@angular/common/locales/pt';
 import { registerLocaleData } from '@angular/common';
 import { ProductUpdateComponent } from './components/product/product-update/product-update.component';
+import { ProductDeleteComponent } from './components/product/product-delete/product-delete.component';
+import { ConfirmDialogComponent } from './components/product/product-delete/confirm-dialog/confirm-dialog.component';
 registerLocaleData(localePt);
 
 @NgModule({
@@ -44,6 +47,8 @@ registerLocaleData(localePt);
     ProductCreateComponent,
     ProductReadComponent,
     ProductUpdateComponent,
+    ProductDeleteComponent,
+    ConfirmDialogComponent,
   ],
   imports: [
     BrowserModule,
@@ -63,7 +68,8 @@ registerLocaleData(localePt);
     MatTableModule,
     MatPaginatorModule,
     MatSortModule,
-    MatTooltipModule
+    MatTooltipModule,
+    MatDialogModule
   ],
   providers: [{
     provide: LOCALE_ID,
