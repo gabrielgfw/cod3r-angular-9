@@ -1,0 +1,18 @@
+table {
+  width: 100%;
+  margin: 15px;
+  padding: 5px;
+}
+
+i {
+  margin: 0 8px 0 8px;
+  color: #444443;
+}
+
+i.edit:hover {
+  color: #545ffd
+}
+
+i.delete:hover {
+  color: #ff0000;
+}
